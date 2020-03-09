@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    max-width: 1360px;
+    margin: 0;
+
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 23px;
+    padding-top: 60px;
+    padding-bottom: 96px;
+}
+
+.logo {
+    width: 91px;
+    height: 20px;
+}
+
+.logo__img {
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__item {
+    font-family: 'Muli', sans-serif;
+    padding-left: 30px;
+}
