@@ -2,7 +2,7 @@ body {
     width: 100vw;
     max-width: 1360px;
     margin: 0;
-
+    font-family: 'Muli', sans-serif;
 }
 
 .wrapper {
@@ -34,6 +34,55 @@ body {
 }
 
 .nav__item {
-    font-family: 'Muli', sans-serif;
     padding-left: 30px;
+}
+
+.text_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text_top--left {
+    max-width: 635px;
+}
+
+.text_top--left_p1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.423077px;
+    color: #4A4FF2;
+    margin-bottom: 32px;
+}
+
+.text_top--left_p2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
+    margin-top: 0;
+}
+
+.text_top--left_p2_span {
+    color: #4A4FF2;
+}
+
+.text_top--right {
+    max-width: 207px;
+    text-align: right;
+    opacity: 0.6;
+}
+
+.text_top--right_p {
+    margin-top: 9px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
 }
