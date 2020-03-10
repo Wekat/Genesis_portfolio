@@ -311,6 +311,6 @@ body {
 }
 
 svg:hover {
-    scale: 1.1;
+    transform: scale(1.1);
     fill: #4A4FF2;
-} /*doesn't work and don't know how to do it*/
+} /*doesn't work and don't know how to do it. tried a lot of different ways*/
