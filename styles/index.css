@@ -310,7 +310,7 @@ body {
     padding-left: 95px;
 }
 
-.some_logos--link:hover {
+svg:hover {
     scale: 1.1;
     fill: #4A4FF2;
-}
+} /*doesn't work and don't know how to do it*/
