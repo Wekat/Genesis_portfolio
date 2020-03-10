@@ -37,6 +37,21 @@ body {
     padding-left: 30px;
 }
 
+.nav__item--link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.nav__item--link:hover {
+    color: #4A4FF2;
+    font-size: 20px;
+}
+
 .text_top {
     max-width: 1110px;
     width: 100%;
@@ -290,6 +305,12 @@ body {
 .some_logos {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 95px;
     padding-left: 95px;
+}
+
+.some_logos--link:hover {
+    scale: 1.1;
+    fill: #4A4FF2;
 }
