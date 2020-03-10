@@ -25,7 +25,7 @@ body {
 }
 
 .logo__img {
-    height: 100%;
+    height: auto;
 }
 
 .nav {
@@ -190,4 +190,106 @@ body {
 
 .text_middle_right {
     width: 130px;
+}
+
+.bottom_text_block {
+    max-width: 1110px;
+    width: 100%;
+    padding-top: 51px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #D8D8D8;
+}
+
+.bottom_text_block__upper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bottom_text_block--column1 {
+    text-align: left;
+    width: 200px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111111;
+    margin-top: 0;
+}
+
+.bottom_text_block--right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_text_block--column2 {
+    text-align: left;
+    margin-top: 0;
+    width: 145px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    padding-right: 160px;
+}
+
+.bottom_text_block--column3 {
+    text-align: left;
+    width: 190px;
+    padding-right: 120px;
+}
+
+.bottom_text_block--column3 h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+    margin-top: 0;
+}
+
+.bottom_text_block--column3 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.bottom_text_block--column4 {
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #111111;
+    margin-top: 0;
+}
+
+.bottom_text_block__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 23px;
+    padding-top: 118px;
+    padding-bottom: 51px;
+}
+
+.some_logos {
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+    padding-left: 95px;
 }
